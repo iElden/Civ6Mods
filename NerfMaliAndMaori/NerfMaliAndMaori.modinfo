@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="25f2a559-0eef-4408-a4fe-218c03509d69" version="4">
+  <Properties>
+    <Name>CivFR - Nerf Mali and Maori v 0.4 BETA</Name>
+    <Description>Mali :
+- Mines give 2g per turn insead of 4
+  +1g at apprenticeship
+  +1g at banking
+
+Maori :
+- Base production bonus on wood and rainforest moved to Construction
+- Base food bonus on fishing boat moved to Celestial Navigation
+
+
+/!\ BETA : Text and tooltips aren't updated !!</Description>
+    <Created>1598875733</Created>
+    <Teaser>Nerf Mili and Maori for making them not permabanned</Teaser>
+    <Authors>iElden</Authors>
+    <SpecialThanks>D. / Jack The Narrator</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="AddFileExpansion2">
+      <File>Expansion2.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Expansion2.sql</File>
+  </Files>
+</Mod>
